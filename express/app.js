@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const port = 3000; // 포트 번호
+const port = 3000;
 
 const userRouter = require('./user'); // user.js 모듈 불러오기
 
