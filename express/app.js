@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const port = 3000;
 
-const userRouter = require('./user'); // user.js 모듈 불러오기
+const userRouter = require('./user');
 
 app.use('/user', userRouter); // 라우터 객체를 /user 경로에 등록
 
