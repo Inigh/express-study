@@ -1,5 +1,5 @@
 const express = require('express');
-const app = express(); // 익스프레스 객체 생성
+const app = express();
 const port = 3000; // 포트 번호
 
 const userRouter = require('./user'); // user.js 모듈 불러오기
